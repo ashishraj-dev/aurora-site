@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background-color: #C8F2EF;
+}
+
+/* Logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.8rem;
+    border: dotted 2px #fff;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px #333;
+    padding: 2px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    transition: color 0.75s;
+}
+
+nav a:hover {
+    color: #ff0000;
+    cursor: pointer; 
+}
+
+h1 {
+    padding-left: 20px;
+    font-family: 'Jost', sans-serif;
+}
+
+p {
+    padding: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+}
+
+.content-h1 {
+    font-size: 2.9rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Background-image */
+.section-1 {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    background: url('../images/background.jpg') no-repeat center center/cover;
+    /* opacity: 0.5; */
+}
+
+.content-landing {
+    position: absolute;
+    top: 320px;
+    left: 10px;
+    font-family: 'Jost', sans-serif;
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 8px 8px rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0);
+    text-shadow: 3px 3px rgb(255, 255, 255); */
+}
+
+.landing-red {
+    color: #ff0000;
+}
+
+.content-heading {
+    width: 61%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    border-bottom: 5px solid red;
+    transition: 0.5s;
+}
+
+.content-main {
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    min-height: 100vh;
+    width: 80%;
+    padding: 20px;
+    background: #000000;
+    box-shadow: 5px 5px 30px rgb(0, 0, 0);
+}
+
+.tromso {
+    display: flex;
+}
+
+.tromso-txt {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.tromso-img {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #fff;
+}
+
+.lofoten {
+    display: flex;
+}
+
+.lofoten-txt {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.lofoten-img {
+    width: 150px;
+    height: 150px;
+}
+
+.reykjavik {
+    display: flex;
+}
+
+.reykjavik-txt {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.reykjavik-img {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #fff;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer-txt {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.copyright {
+    margin-top: 2rem;
+    width: 100%;
+    height: 3.7rem;
+    color: rgb(0, 0, 0);
+}
+
+.copyright-p {
+    text-align: center;
+    font-size: 1.5rem;
+}
